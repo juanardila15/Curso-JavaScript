@@ -1,9 +1,8 @@
-const nombre = "Pepito"
-const apellido = "Perez"
-
+const nombre = "Carlos"
+const apellido = "Azaustre"
 console.log(nombre + " " + apellido);
 console.log(`${nombre} ${apellido}`)
-
-function componente({ backgroundColor }) {
-  return (<div className={
-  
+function Componente({ backgroundColor }) {
+  return (<div classname={`bg-color-${backgroudColor}`}>hola</div>)
+ }
+ 
